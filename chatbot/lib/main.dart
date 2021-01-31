@@ -25,7 +25,7 @@ final String title;
 class _MyHomePageState extends State<MyHomePage> {
 final GlobalKey<AnimatedListState> _listKey = GlobalKey();
   List<String> _data = [];
-  static const String BOT_URL = "https://what-u-can-bring.herokuapp.com/"; // replace with server address
+  static const String BOT_URL = "https://flutter-chatbotapp.herokuapp.com/bot"; // replace with server address
   TextEditingController _queryController = TextEditingController();
 @override
   Widget build(BuildContext context) {
